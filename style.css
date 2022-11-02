@@ -1,0 +1,257 @@
+body{
+    background-color: darkgray;
+    overflow-x: hidden; 
+}
+.a-img-profile {
+    border-radius: 50%;
+    border: 18px solid #fff;
+    z-index: 3;
+    position: relative;
+    width: 38em;
+}
+.a-nom {
+    margin-left: 12em;
+    margin-top: 3em;
+}
+.a-header {
+    background-color: #5d656c;
+    padding-bottom: 35px;
+    z-index: 4;
+
+}
+.rond-gris-n {
+    width: 69em;
+    height: 121em;
+    position: absolute;
+    border-radius: 83%;
+    top: -62em;
+    left: -37em;
+    background-color: #5d656c;
+    z-index: 1;
+}
+.rond-gris {
+    width: 172em;
+    height: 84em;
+    position: absolute;
+    border-radius: 83%;
+    top: 15em;
+    left: 16em;
+    background-color: #a9a9a9;
+    z-index: 2;
+}
+
+/*****************/
+
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 44px;
+}
+.a-sous-titre {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.an-title {
+    text-transform: uppercase;
+}
+* {
+    list-style: none;
+    font-family: candara;
+}
+
+.fa-feather-pointed::before {
+    content: "\f095";
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.fa-at::before {
+    content: "\f095";
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+.fa-phone::before {
+    content: "\f095";
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+.fa-location-dot::before {
+    content: "\f095";
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+li {
+    margin: 26px 0;
+
+}
+.an-color-icon {
+    color: #4f262d;
+}
+.an-color {
+    color: #fff;
+    margin-left: 20px;
+}
+.a-suivre {
+    margin-left: 13px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #7e7777fc;
+    border-radius: var(--ne-range-border-radius, 24px);
+    outline: 0;
+    width: 67%;
+    height: 17px;
+
+}
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 3px 3px 3px #3e3d3d;
+    border: 2px solid #b0b5b0;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #4f262d;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+a {
+    text-decoration: none;
+    color: #4f262d;
+}
+.a-rond {
+    box-shadow: 3px 3px 3px #3e3d3d;
+    height: 19px;
+    width: 19px;
+    border-radius: 23px;
+    background: #4f262d;
+    -webkit-appearance: none;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+.a-rond-pr {
+
+    height: 19px;
+    width: 19px;
+    border-radius: 23px;
+    background: #7e7777fc;
+    -webkit-appearance: none;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+.a-slogan {
+    font-size: 21px;
+}
+.a-profile-text {
+    text-align: justify;
+    width: 35em;
+}
+.a-bold {
+    font-weight: bold;
+}
+h5 {
+    margin-left: 16px;
+}
+.a-tab {
+    margin-left: 42px;
+}
+
+.an-bg {
+    z-index: 7;
+}
+header {
+    z-index: 2;
+    position: relative;
+}
+
+.col-md-7 {
+    z-index: 5;
+}
+.a-section2 {
+    top: -9em;
+    position: relative;
+}
+.an-title {
+    color: #4f262d;
+}
+.rond-gris-g {
+    width: 50em;
+    height: 50em;
+    position: absolute;
+    border-radius: 83%;
+    top: 29em;
+    right: -13em;
+    background-color: #606b7457;
+    z-index: -2;
+}
+.rond-gris-b {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    border-radius: 83%;
+    top: 7em;
+    left: 32em;
+    background-color: #dc3545;
+    z-index: 4;
+}
+.a-vertical{
+    height: 135em;
+    left: -21px;
+    position: relative;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 1240px){
+.rond-gris-n {
+    width: 0px !important;
+    height: 0px !important;
+}
+h1{
+    font-size: 33px;
+}
+body{
+    background-color: darkgray;
+    overflow-x: hidden !important; 
+}
+.rond-gris {
+    width: 0px !important;
+    height: 0px !important;
+}
+.rond-gris-g {
+    width: 0px !important;
+    height: 0px !important;
+}
+.a-img-profile{
+    max-width: 100%;
+  height: auto;
+}
+body {
+    position: relative;
+   }
+.a-nom{
+    text-align: center;
+    margin: 0px !important;
+}
+.rond-gris-b{
+    width: 0px !important;
+    height: 0px !important;
+}
+.a-section2{
+    top: 0px !important;
+}
+}
+@media only screen and (max-width: 767px){
+    .a-ce{
+        text-align: center;
+    }
+}
